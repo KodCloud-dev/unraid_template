@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>kodbox</Name>
+  <Repository>kodcloud/kodbox:latest</Repository>
+  <Registry>https://hub.docker.com/r/kodcloud/kodbox</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://bbs.kodcloud.com/</Support>
+  <Project>https://github.com/kalcaddle/kodbox/</Project>
+  <Overview>KodBox can be used to access and share your files, and kodbox support hundreds of file formats for online preview, editing, and playback.
+</Overview>
+  <Category>Cloud:</Category>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/KodCloud-dev/docker/master/unraid_template/my-kodbox.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/kalcaddle/kodbox/master/static/images/icon/icon_512.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <Requires/>
+  <Config Name="HTML/PHP Files" Target="/var/www/html" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/kodbox/html</Config>
+  <Config Name="WebGUI Port" Target="80" Default="" Mode="tcp" Description="Only use for bridge network" Type="Port" Display="always" Required="false" Mask="false">8668</Config>
+</Container>
