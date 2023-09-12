@@ -13,7 +13,7 @@
 </Overview>
   <Category>Cloud:</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/KodCloud-dev/docker/master/unraid_template/my-kodbox.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/KodCloud-dev/unraid_template/master/my-kodbox.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/kalcaddle/kodbox/master/static/images/icon/icon_512.png</Icon>
   <ExtraParams/>
   <PostArgs/>
